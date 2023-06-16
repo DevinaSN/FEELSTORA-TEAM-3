@@ -94,7 +94,7 @@ body {
   display: flex;
 
   border-radius: 0 0%;
-  background-color: #ffff;
+  background-color: #f3f3f3;
 }
 .left {
   width: 60%;
@@ -110,7 +110,7 @@ body {
   justify-content: space-between;
   color: #141414;
   border-radius: 2px;
-  background-color: #ffdc3c;
+  background-color: #ddd;
 }
 
 .calendar .month {
@@ -189,7 +189,7 @@ body {
 }
 .calendar .days .prev-date,
 .calendar .days .next-date {
-  color: #b3b3b3;
+  color: #fff;
 }
 .calendar .days .active {
   position: relative;
@@ -329,7 +329,7 @@ body {
   padding: 0 20px;
   padding-left: 50px;
   color: #141414;
-  background: linear-gradient(90deg, #ffdc3c, transparent);
+  background: linear-gradient(90deg, #f3f3f3, transparent);
   cursor: pointer;
 }
 /* even event */
@@ -394,7 +394,7 @@ body {
   align-items: center;
   justify-content: center;
   font-size: 1rem;
-  color: #ffdc3c;
+  color: #141414;
   border: 2px solid #ffdc3c;
   opacity: 0.5;
   border-radius: 50%;
@@ -415,7 +415,7 @@ body {
   justify-content: center;
   font-size: 1.5rem;
   font-weight: 500;
-  color: #ffdc3c;
+  color: #141414;
 }
 .add-event-wrapper {
   position: absolute;
@@ -425,7 +425,7 @@ body {
   max-height: 0;
   overflow: hidden;
   border-radius: 5px;
-  background-color: #f3f3f3;
+  background-color: #ffdc3c;
   transform: translateX(-50%);
   transition: max-height 0.5s ease;
 }
