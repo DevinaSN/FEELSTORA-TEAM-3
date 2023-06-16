@@ -19,7 +19,7 @@
 }
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #f3f3f3;
+  background-color: #ffdc3c;
   overflow: hidden;
   margin-top: 0%;
 }
@@ -47,7 +47,7 @@
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ffdc3c;
+  background-color: #f3f3f3;
   border-radius: 5px;
   color: #2a2a2a;
   font-weight: bolder
