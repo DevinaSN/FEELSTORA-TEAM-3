@@ -19,7 +19,7 @@
 }
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #f1ca1a;
+  background-color: #f3f3f3;
   overflow: hidden;
   margin-top: 0%;
 }
@@ -47,7 +47,7 @@
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #ffdc3c;
   border-radius: 5px;
   color: #2a2a2a;
   font-weight: bolder
@@ -75,7 +75,7 @@ head {
 body {
   font-family: 'Times New Roman', Times, serif;
   margin: 80 150px;
-  background-color: #f3f3f3;
+  background-color: #fff;
   overflow: hidden;
   display: grid;
   /* justify-content: center; */
