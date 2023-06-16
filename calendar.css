@@ -2,10 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* font-family: 'Poppins', sans-serif; */
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
-  border-radius: 2%;
+  font-family: 'Montserrat', Raleway;
+  border-radius: 0%;
 }
 /* body {
   width: 100%;
@@ -21,35 +19,38 @@
 }
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #f3f3f3;
+  background-color: #f1ca1a;
   overflow: hidden;
-  margin-top: 1%;
+  margin-top: 0%;
 }
-.img-brand {
-  width: 70%;
-  height: 50%;
-  text-align: left;
+.topnav .img-brand {
+  height: 45px; /* Tinggi gambar brand */
+  width: auto; /* Lebar gambar brand menyesuaikan tinggi */
+  float: left;
 }
-.navbar-brand {
-  /* height: 50%; */
-  width: 100%;
-  margin-right: 100%;
+.topnav .navbar-brand {
+  display: inline-block;
+  text-align: center;
+  padding: 5px 16px;
+  text-decoration: none;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
-  color: #141414;
+  color: #2a2a2a;
   text-align: center;
-  padding: 2%;
+  padding: 1%;
   text-decoration: none;
-  font-size: 110%;
-}
+  font-size: 100%;
+  }
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ffdc3c;
-  color: black;
+  background-color: #ddd;
+  border-radius: 5px;
+  color: #2a2a2a;
+  font-weight: bolder
 }
 .topnav-right {
   margin-top: 0.7%;

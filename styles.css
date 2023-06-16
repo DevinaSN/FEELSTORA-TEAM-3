@@ -1,93 +1,128 @@
-* {
-  box-sizing: border-box;
+*   {
+  font-family: 'Montserrat', Ralewat;
 }
 
-body {
-  margin: 0;
-  font-family: system-ui, sans-serif;
-  color: black;
-  background-color: white;
-  display: grid;
+/* start started/login page */
+.started-page {
+  height: 100vh;
+}
+/* end started/login page */
+
+/* start started/login left page */
+.started-page-left {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.brand {
-  margin-left: 80px;
-  padding: 0px;
-  height: auto;
-  width: auto;
-  margin-top: 20px;
+.container-left {
+  width: 300px;
+  height: 350px;
+  border: 2px solid black;
+  box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
 }
-.img-brand {
-  width: 35%;
-  margin-top: 0%;
-  margin-left: 8%;
+
+.container-container {
+  width: 275px;
+  height: 180px;
+  position: relative;
+  top: 75px;
 }
-.img-home {
-  width: 160%;
-  height: auto;
-  margin-left: 45%;
-  text-align: left;
+
+.container-header {
+  margin-bottom: 20px;
 }
-.login-form {
-  font-size: 130%;
-  margin-left: 40%;
-  /* margin-right: 0%; */
-  height: 90%;
-  /* width: 80%; */
-  background-color: #ffe5bf;
-  border-radius: 15%;
-  /* padding-left: 300px; */
+
+.container-header h3{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.container-header p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15px;
+  color: #000000;
+}
+
+.container-about {
+  width: 270px;
+  height: 35px;
+  margin-bottom: 20px;
+
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.container-about a {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
 }
 
 .about {
-  text-align: right;
-  margin-right: 5%;
-  margin-top: 30px;
-  color: black;
-  font-size: 110%;
-  font-family: raleway;
+  padding-top: 5px;
 }
 
-.about a:hover {
-  color:blue;
-}
+.container-start {
+  width: 270px;
+  height: 35px;
+  margin-bottom: 20px;
 
-.container {
-  padding-left: 8%;
-  text-align: center;
-  display: flex;
-  width: 87%;
-  margin-bottom: 50%;
-  display: flex;
-}
-.intro {
-  margin-top: 15%;
-  margin-left: 10%;
-  margin-right: 10%;
-  text-align: justify;
-}
-.intro2 {
-}
-.form-group button {
-  margin-top: 10%;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 90%;
-}
-/* .form-group button :hover {
-  background-color: #FFD700;
-  
-  font-size: 100%;
-} */
-.btn_style {
-  border: 10px solid #ffd700;
+  background: rgba(255, 220, 60, 0.6);
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
-  padding: 3px 10px;
-  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
-  color: FFD700;
-  background-color: #ffd700;
 }
-.btn_style:hover {
-  border: 10px solid #ffd700;
-  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+
+.container-start a {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
 }
+
+.start {
+  padding-top: 5px;
+}
+/* end started/login left page */
+
+/* start started/login right page */
+.started-page-right {
+  width: 50%;
+  height: 100%;
+}
+
+.container-right h5 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffdc3c;
+}
+
+.container-right p{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15px;
+  color: #ffffff;
+}
+/* end started/login right page */
