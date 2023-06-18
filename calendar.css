@@ -177,7 +177,7 @@ body {
   position: relative;
   width: 90%;
   /* min-height: 100px; */
-  height: 91.5%;
+  height: 72%;
   margin: 0 auto;
   padding: -5px;
   color: #ffdc3c;
@@ -187,7 +187,8 @@ body {
   margin-left: 5%;
   border-style: dotted;
   overflow-y: scroll;
-  padding-bottom: 0%;
+  padding-bottom: 5%;
+  /* margin-bottom: 5%; */
 }
 .left {
   width: 60%;
@@ -196,14 +197,15 @@ body {
 .calendar {
   position: relative;
   width: 90%;
-  height: 100%;
+  height: 700px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   color: #141414;
   border-radius: 2px;
   background-color: #ffdc3c;
+  /* padding-bottom: -100%; */
 }
 
 .calendar .month {
@@ -216,6 +218,7 @@ body {
   font-size: 1.2rem;
   font-weight: 500;
   text-transform: capitalize;
+  margin-bottom: -5%;
 }
 .calendar .month .prev,
 .calendar .month .next {
@@ -235,6 +238,7 @@ body {
   font-size: 1rem;
   font-weight: 500;
   text-transform: capitalize;
+  margin-bottom: -3%;
 }
 .weekdays div {
   width: 14.28%;
@@ -245,13 +249,14 @@ body {
 }
 .calendar .days {
   width: 100%;
+  height: 50%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 0 20px;
   font-size: 1rem;
   font-weight: 500;
-  margin-bottom: 20px;
+  /* margin-bottom: 10px; */
 }
 .calendar .days .day {
   width: 14.28%;
@@ -327,17 +332,20 @@ body {
 }
 .calendar .goto-today {
   width: 100%;
-  height: 50px;
+  height: 100px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 5px;
   padding: 0 20px;
-  margin-bottom: 20px;
+  /* margin-bottom: 25px; */
+  /* margin-top: -50px; */
   color: var(--primary-clr);
 }
 .calendar .goto-today .goto {
   display: flex;
+  margin-top: 85px;
+  margin-bottom: ;
   align-items: center;
   border-radius: 5px;
   overflow: hidden;
@@ -354,6 +362,7 @@ body {
 }
 .calendar .goto-today button {
   padding: 5px 10px;
+  margin-top: 2%;
   border: 1px solid var(--primary-clr);
   border-radius: 5px;
   background-color: #ffdc3c;
@@ -369,6 +378,9 @@ body {
   border-left: 1px solid var(--primary-clr);
   border-radius: 0;
   background-color: #ffdc3c;
+}
+.calendar .goto-today .today-btn {
+  margin-top: 85px;
 }
 .container .right {
   position: relative;
@@ -608,14 +620,14 @@ body {
 
 /* media queries */
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 770px) {
   /* body {
     align-items: flex-start;
     justify-content: flex-start;
   } */
   .container {
     /* min-height: 100vh; */
-    height: 49.6%;
+    height: 41.8%;
     flex-direction: column;
     border-radius: 0;
   }
@@ -628,6 +640,11 @@ body {
     width: 100%;
     height: 100%;
     padding: 20px 0;
+    padding-bottom: 40%;
+    padding-top: -20%;
+    background-color: #ffffff;
+    border-radius: 0;
+    /* margin-bottom: -2%; */
   }
   .calendar::before,
   .calendar::after {
@@ -637,41 +654,50 @@ body {
     height: 12px;
     border-radius: 0 0 5px 5px;
     transform: translateX(-50%);
+    /* margin-bottom: 50%; */
   }
   .calendar::before {
     width: 94%;
     top: calc(100% + 12px);
   }
+  .calendar .goto-today {
+    padding-top: 11%;
+    padding-bottom: 30%;
+  }
+  .right .today-date {
+    /* margin: 6%; */
+    margin-left: -7%;
+    margin-top: 20%;
+  }
+
   .events {
-    padding-bottom: 340px;
+    padding-bottom: 320px;
+  }
+  .event-day {
+    margin-top: -50%;
+  }
+  .event-date {
+    margin-top: -50%;
+  }
+  .no-event {
+    margin-top: 0%;
   }
   .add-event-wrapper {
     bottom: 100px;
   }
+  .add-event {
+    bottom: -50%;
+    margin-right: 10%;
+  }
 }
-@media screen and (max-width: 670px) {
-  .container {
-    height: 45%;
+@media screen and (max-width: 550px) {
+  body {
+    overflow: scroll;
   }
-  .calendar::before,
-  .calendar::after {
-    top: 100%;
-    left: -500%;
-    width: 97%;
-    height: 12px;
-    border-radius: 0 0 5px 5px;
-    transform: translateX(-50%);
-    margin-left: -10%;
+  .goto-today {
+    margin-top: 4%;
   }
-  .calendar .days {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    /* justify-content: space-between; */
-    padding: 0 20px;
-    font-size: 1rem;
-    font-weight: -500;
-    margin-top: 20%;
-    margin-left: -100%;
+  .right {
+    margin-top: 7%;
   }
 }
