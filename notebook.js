@@ -94,6 +94,7 @@ let editTask = (e) => {
 
 let resetForm = () => {
   textInput.value = '';
+  textarea.value = '';
   delete updateform.dataset.taskId;
 };
 
