@@ -90,9 +90,10 @@ header {
   .topnav-right a {
     font-size: medium;
   }
-  #addNew {
-    margin-right: 600px;
-  }
+#addNew {
+  margin-right: 600px;
+  font-size: 12px;
+}
 }
 @media screen and (max-width: 850px) {
   .topnav-right {
@@ -148,7 +149,7 @@ header {
   }
   #addNew {
     margin-right: 65%;
-    font-size: 6px%;
+    font-size: 6px;
   }
 }
 
