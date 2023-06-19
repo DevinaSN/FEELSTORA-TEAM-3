@@ -14,7 +14,7 @@ header {
   margin-bottom: 0%;
 }
 .topnav {
-  background-color: #2a2a2a;
+  background-color: #ffdc3c;
   overflow: hidden;
   margin-top: 0%;
   margin-bottom: 1%;
@@ -55,7 +55,7 @@ header {
 
 .topnav .ul a {
   float: left;
-  color: #fff;
+  color: #141414;
   padding: 2%;
 }
 
