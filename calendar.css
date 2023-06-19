@@ -15,7 +15,7 @@ header {
 }
 .topnav {
   /* background-color: #f3f3f3; */
-  background-color: #ffdc3c;
+  background-color: #2a2a2a;
   overflow: hidden;
   margin-top: 0%;
   margin-bottom: 1%;
@@ -56,7 +56,7 @@ header {
 
 .topnav .ul a {
   float: left;
-  color: #141414;
+  color: #fff;
   padding: 2%;
 }
 
@@ -490,7 +490,7 @@ body {
 }
 .add-event {
   position: absolute;
-  bottom: 70px;
+  bottom: 0px;
   right: 50px;
   width: 50px;
   height: 50px;
