@@ -273,15 +273,48 @@ body {
   cursor: pointer;
 }
 
+.modal-footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px;
+}
+
+.modal-footer button {
+  margin-left: 10px;
+}
+
+.modal-footer .btn-secondary {
+  background-color: #d4d4d4;
+  color: #141414;
+}
+
+.modal-footer .btn-primary {
+  background-color: #ffdc3c;
+  color: #141414;
+}
+
 #msg {
-  color: #ffdc3c;
+  color: #ff8800;
 }
-/* .text-secondary {
-  width: auto;
+
+select option i {
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translateY(-50%);
 }
-.w-100 {
-  width: 100px;
+
+select::-ms-expand {
+  display: none;
 }
-.h-100 {
-  height: 100px;
-} */
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding-right: 25px;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="%23333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6" /></svg>');
+  background-repeat: no-repeat;
+  background-position: right 8px center;
+}

@@ -33,7 +33,6 @@ let data2 = [{}];
 
 let acceptData = () => {
   if (updateform.dataset.taskId) {
-    // Update existing task
     let selectedTaskId = updateform.dataset.taskId;
     let selectedTask = data2[selectedTaskId];
     selectedTask.text = textInput.value;
@@ -57,14 +56,12 @@ let createTasks = () => {
   tasks.innerHTML = '';
   data2.map((x, y) => {
     return (tasks.innerHTML += `
-    <div id=${y}>
-          <span class="fw-bold">${x.text}</span>
-          <span class="small text-secondary">${x.description}</span>
-          
-          <span class="options">
-            <i onClick= "editTask(this)" data-bs-toggle="modal" data-bs-target="#form" class="fas fa-edit"></i><i onClick ="deleteTask(this);createTasks()" class="fas fa-trash-alt"></i>
-          </span>
-        </div>
+    <div id=${y} style="font-family: 'Monstserrat', Raleway;">
+    <span class="fw-bold" style="font-size: 18px; padding: 2px 5px;">${x.text}</span> 
+    <span style="font-size: 12px; padding: 2px 5px">${x.description}</span> <br>
+    <span class="options">
+    <i onClick= "editTask(this)" data-bs-toggle="modal" data-bs-target="#form" class="fas fa-edit"></i> &nbsp; &nbsp; &nbsp; &nbsp; <i onClick ="deleteTask(this);createTasks()" class="fas fa-trash-alt"></i> </span>
+    </div>
     `);
   });
 
