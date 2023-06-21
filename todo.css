@@ -14,7 +14,7 @@ header {
   margin-bottom: 0%;
 }
 .topnav {
-  background-color: #ffdc3c;
+  background-color: #2a2a2a;
   overflow: hidden;
   margin-top: 0%;
   margin-bottom: 1%;
@@ -29,7 +29,7 @@ header {
   margin-top: -2%;
   margin-left: 5%;
   margin-right: -300%;
-  width: 100%; 
+  width: 100%;
 }
 
 .img-brand {
@@ -40,7 +40,7 @@ header {
   padding-left: 1.5%;
   margin-top: -1.5%;
   background-color: rgb(241, 241, 241);
-  padding-top: 1% ;
+  padding-top: 1%;
   padding-bottom: 20px;
 }
 
@@ -55,7 +55,7 @@ header {
 
 .topnav .ul a {
   float: left;
-  color: #141414;
+  color: #ffff;
   padding: 2%;
 }
 
@@ -77,11 +77,11 @@ header {
 }
 /* Change the color of links on hover */
 .topnav .ul a:hover {
-  background-color: rgb(241, 241, 241);
+  background-color: #ffdc3c;
   color: black;
   border-radius: 6%;
   -webkit-transform: scale(1.08);
-  transform: scale(1.05)
+  transform: scale(1.05);
 }
 @media screen and (max-width: 1100px) {
   .topnav-right {
@@ -178,7 +178,6 @@ body {
 }
 .app {
   margin-top: 4%;
-
 }
 /* .app {
   background-color: rgb(255, 255, 255);
@@ -215,7 +214,7 @@ body {
 }
 #addNew:hover {
   -webkit-transform: scale(1.08);
-  transform: scale(1.05)
+  transform: scale(1.05);
 }
 .fa-plus {
   background-color: #ffdc3c;
@@ -265,7 +264,7 @@ body {
   gap: 10%;
   width: auto;
   height: auto;
-  color: #141414
+  color: #141414;
 }
 
 #tasks div .options i {
@@ -317,4 +316,3 @@ select {
   background-repeat: no-repeat;
   background-position: right 8px center;
 }
-
