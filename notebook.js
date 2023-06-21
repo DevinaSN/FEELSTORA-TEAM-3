@@ -82,12 +82,7 @@ let editTask = (e) => {
   updateform.dataset.taskId = selectedTask.id;
   console.log(selectedTask.id);
 };
-// let editTask = (e) => {
 
-//   let selectedTask = e.parentElement.parentElement;
-//   textInput.value = selectedTask.children[0].innerHTML;
-//   textarea.value = selectedTask.children[1].innerHTML;
-// };
 
 let resetForm = () => {
   textInput.value = '';

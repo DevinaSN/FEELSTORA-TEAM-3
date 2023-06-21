@@ -14,7 +14,7 @@ header {
   margin-bottom: 0%;
 }
 .topnav {
-  background-color: #ffdc3c;
+  background-color: #2a2a2a;
   overflow: hidden;
   margin-top: 0%;
   margin-bottom: 1%;
@@ -55,7 +55,7 @@ header {
 
 .topnav .ul a {
   float: left;
-  color: #141414;
+  color: #ffff;
   padding: 2%;
 }
 
@@ -77,7 +77,7 @@ header {
 }
 /* Change the color of links on hover */
 .topnav .ul a:hover {
-  background-color: rgb(241, 241, 241);
+  background-color: #ffdc3c;
   color: black;
   border-radius: 6%;
   -webkit-transform: scale(1.08);
@@ -298,23 +298,3 @@ body {
   color: #ff8800;
 }
 
-select option i {
-  position: absolute;
-  right: 5px;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-select::-ms-expand {
-  display: none;
-}
-
-select {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  padding-right: 25px;
-  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="%23333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6" /></svg>');
-  background-repeat: no-repeat;
-  background-position: right 8px center;
-}
