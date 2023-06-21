@@ -21,32 +21,30 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet"/>
   </head>
-
+  
   <body>
     <header>
       <div class="topnav">
-        <!-- <div class="brand"> -->
           <div class="navbar-brand">
             <a class="brand" href="index.html">
               <img href="index.html"
               src="https://github.com/LydiaWulandari/D2-HTML-Basic/blob/main/feelstora_logo.png?raw=true"
               alt="feelstora-logo"
-              class="img-brand"
-            />
-          </a>
-        <!-- </div> -->
-        <!-- <a class="active" href="#home">Home</a> -->
-        <ul class="ul">
-        <div class="topnav-right">
-          <a href="todo.html" class="active">To Do List</a>
-          <a href="notebook.html">Notebook</a>
-          <a href="calendar.html">Calendar</a>
-          <a href="about.html">About</a>
+              class="img-brand"/>
+            </a> 
+            <ul class="ul">
+              <div class="topnav-right">
+                <a href="todo.html" class="active">To Do List</a>
+                <a href="notebook.html">Notebook</a>
+                <a href="calendar.html">Calendar</a>
+                <a href="about.html">About</a>
+              </div>
+            </ul>
+          </div>
         </div>
-      </ul>
-     </div>
-    </div>
-  </header>
+      </div>
+    </header>
+    
     <div class="app">
       <h4 class="mb-3">My To Do list</h4>
       <div id="addNew" data-bs-toggle="modal" data-bs-target="#form">
@@ -63,8 +61,7 @@
         id="form"
         tabindex="-1"
         aria-labelledby="exampleModalLabel"
-        aria-hidden="true"
-      >
+        aria-hidden="true">
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
@@ -73,12 +70,12 @@
                 type="button"
                 class="btn-close"
                 data-bs-dismiss="modal"
-                aria-label="Close"
-              ></button>
+                aria-label="Close">
+              </button>
             </div>
             <div class="modal-body">
               <p>Task Title</p>
-              <input type="text" class="form-control" name="" id="textInput" />
+              <input type="text" class="form-control" name="" id="textInput"/>
               <div id="msg"></div>
               <br />
               <p>Due Date</p>
@@ -107,28 +104,21 @@
             </div>
             <div class="modal-footer">
               <button
-                type="button"
-                class="btn btn-secondary"
-                data-bs-dismiss="modal"
-              >
-                Close
+                type="button" class="btn btn-secondary" data-bs-dismiss="modal"> Close
               </button>
-              <button type="submit" id="add" class="btn btn-primary">
-                Add
+              <button type="submit" id="add" class="btn btn-primary">Add
               </button>
             </div>
           </div>
         </div>
       </form>
-
       <!-- Modal -->
       <form
         class="modal fade"
         id="updateform"
         tabindex="-1"
         aria-labelledby="exampleModalLabel"
-        aria-hidden="true"
-      >
+        aria-hidden="true">
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
@@ -182,11 +172,7 @@
             </div>
             <div class="modal-footer">
               <button
-                type="button"
-                class="btn btn-secondary"
-                data-bs-dismiss="modal"
-              >
-                Close
+                type="button" class="btn btn-secondary" data-bs-dismiss="modal"> Close
               </button>
               <button type="submit" id="update" class="btn btn-primary">
                 Update
