@@ -14,7 +14,7 @@ header {
   margin-bottom: 0%;
 }
 .topnav {
-  background-color: #ffdc3c;
+  background-color: #2a2a2a;
   overflow: hidden;
   margin-top: 0%;
   margin-bottom: 1%;
@@ -29,7 +29,7 @@ header {
   margin-top: -2%;
   margin-left: 5%;
   margin-right: -300%;
-  width: 100%; 
+  width: 100%;
 }
 
 .img-brand {
@@ -40,7 +40,7 @@ header {
   padding-left: 1.5%;
   margin-top: -1.5%;
   background-color: rgb(241, 241, 241);
-  padding-top: 1% ;
+  padding-top: 1%;
   padding-bottom: 20px;
 }
 
@@ -50,12 +50,13 @@ header {
   padding-right: 2%;
   width: 75%;
   font-size: 100%;
+  margin-right: -14.75%;
 }
 /* Style the links inside the navigation bar */
 
 .topnav .ul a {
   float: left;
-  color: #141414;
+  color: #fff;
   padding: 2%;
 }
 
@@ -77,11 +78,11 @@ header {
 }
 /* Change the color of links on hover */
 .topnav .ul a:hover {
-  background-color: rgb(241, 241, 241);
+  background-color: #ffdc3c;
   color: black;
   border-radius: 6%;
   -webkit-transform: scale(1.08);
-  transform: scale(1.05)
+  transform: scale(1.02);
 }
 @media screen and (max-width: 1100px) {
   .topnav-right {
@@ -89,10 +90,6 @@ header {
   }
   .topnav-right a {
     font-size: medium;
-  }
-  #addNew {
-    margin-right: 600px;
-    font-size: 12px;
   }
 }
 @media screen and (max-width: 850px) {
@@ -103,11 +100,7 @@ header {
     font-size: small;
   }
   .ul {
-    margin-right: 10%;
-  }
-  #addNew {
-    margin-right: 350px;
-    font-size: 10px;
+    margin-right: -14.75%;
   }
 }
 @media screen and (max-width: 530px) {
@@ -147,12 +140,7 @@ header {
   .app {
     margin-top: -9%;
   }
-  #addNew {
-    margin-right: 65%;
-    font-size: 6px;
-  }
 }
-
 head {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -178,10 +166,7 @@ body {
 }
 .app {
   margin-top: 4%;
-
 }
-
-
 
 /* start jumbotron */
 .conteiner-main-page {
@@ -245,7 +230,6 @@ body {
   border-radius: 25px;
 }
 /* end jumbotron */
-
 
 .btn_style {
   border: 10px solid #ffd700;
