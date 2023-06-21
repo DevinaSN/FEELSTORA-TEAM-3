@@ -79,7 +79,7 @@ let createTasks = () => {
   data.map((x, y) => {
     return (tasks.innerHTML += `
     <div id=${y} style="font-family: 'Monstserrat', Raleway;">
-    <span class="fw-bold" style="font-size: 18px; padding: 2px 5px;">${x.text}</span>
+    <span class="fw-bold" style="font-size: 15px; padding: 2px 5px;">${x.text}</span>
     <span class="small text-secondary" style="font-size: 12px;padding: 2px 5px;">${x.date}</span>
     <span style="font-size: 15px">
         <span class="small label label-secondary" style="font-size: 12px; padding: 1px 8px; background-color: #ffff; color: rgba(0, 0, 0, 1); max-width: 100px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; border-radius: 8px">${x.type}</span> &nbsp;  &nbsp;  &nbsp;  &nbsp;
